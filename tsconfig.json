@@ -4,8 +4,8 @@
     "target": "es5",
     "module":"es2015",
     "lib": ["es2015", "es2016", "es2017", "dom"],
-    "strict": true,
-    "sourceMap": true,
+    "strict": true,//启用所有严格类型的检查选项
+    "sourceMap": true,//打包的时候，增加文件映射
     "declaration": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
